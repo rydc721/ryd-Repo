@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<channel>
+	<id>newpct1</id>
+	<name>Newpct1</name>
+	<language>es</language>
+	<update_url></update_url>
+	<active>true</active>
+	<include_in_global_search>false</include_in_global_search>
+	<version>13.3</version>
+	<adult>false</adult>
+	<date>14/01/16</date>
+	<changes>Corregido titulo en enlaces para descargas</changes>
+	<fanart></fanart>
+	<thumbnail></thumbnail>
+	<categories>
+		<category>movie</category>
+		<category>serie</category>
+		<category>anime</category>
+	</categories>
+</channel>
