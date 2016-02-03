@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.flixtv"
+       name="Flix TV"
+       version="0.1"
+       provider-name="rydc721">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Estor es un Fork de cCloud tv</summary>
+    <description>Gracias a Podgod</description>
+	<license>http://www.gnu.org/licenses/</license>
+    <forum></forum>
+    <website></website>
+    <website></website>
+    <website></website>
+    <email></email>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.genesis" name="Genesis" version="5.1.4" provider-name="lambda">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">The origins of streaming</summary>
+		<description lang="en">Visit TVADDONS.ag for support</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.genesislazarus" name="Genesis Lazarus" version="4.8.5" provider-name="KodiMaster">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Genesis Lazarus - Genesis Has Risen</summary>
+		<description lang="en">Genesis Lazarus provides Genesis 4.8.5 with download availability again. All credit for the Genesis add-on goes to lambda. </description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<forum></forum>
+		<source>https://offshoregit.com/lambda81/</source>
+		<website>https://offshoregit.com/lambda81/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.pelisalacarta"
+    name="pelisalacarta"
+    version="4.0.6"
+    provider-name="tvalacarta">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">Películas y series a la carta</summary>
+    <description lang="es">Películas, series, documentales, anime, ... todo lo que puedas encontrar en Internet ahora desde tu media center. Incluye canales en Español, Italiano e Inglés.</description>
+    <summary lang="en">Movies and TV Shows on demand</summary>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... everything you can find on Internet now on your media center. Includes channels in Spanish, Italian and English.</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+    <forum>http://www.mimediacenter.info/foro</forum>
+    <website>http://blog.tvalacarta.info/plugin-xbmc/pelisalacarta</website>
+    <email>tvalacarta@gmail.com</email>
+    <source>https://github.com/tvalacarta/pelisalacarta</source>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+
+
+<addon id="repository.video.ryd" name="Kodi-RYD official Repo" version="1.1.0" provider-name="rydc721">
+	<extension point="xbmc.addon.repository" name="Kodi-RYD official Repo">
+		<info compressed="false">https://github.com/rydc721/ryd-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rydc721/ryd-repo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RYD official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

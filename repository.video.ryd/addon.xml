@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.video.ryd" name="Kodi-RYD official Repo" version="1.1.0" provider-name="rydc721">
+	<extension point="xbmc.addon.repository" name="Kodi-RYD official Repo">
+		<info compressed="false">https://github.com/rydc721/ryd-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodimexico/miNuevoRepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rydc721/ryd-repo/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RYD official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
